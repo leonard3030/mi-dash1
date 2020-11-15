@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi-Dash | Login</title>
-    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="<?=CSS?>/midash1.css">
 </head>
 <body>
@@ -35,6 +33,6 @@
         </section>
     </div>
 
-    <script src="<?=JS?>/login.js"></script>
+    <script src="<?=JS?>/midash1.js"></script>
 </body>
 </html>
