@@ -301,6 +301,9 @@
         z-index: 999;
         box-shadow: 0 5px 20px 3px black;
     }
+    .nav-section:hover{
+        width: 260px;
+    }
     .h-phone{
         display: none;
     }
