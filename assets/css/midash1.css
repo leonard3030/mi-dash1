@@ -289,3 +289,19 @@
 .body-footer a {
 	color: blue;
 }
+
+@media (max-width: 660px) {
+	.body-widget {
+        width: calc(100vw - 64px) !important;
+        margin-left: 64px !important;
+    }
+    .nav-section{
+        position: fixed;
+        width: 64px;
+        z-index: 999;
+        box-shadow: 0 5px 20px 3px black;
+    }
+    .h-phone{
+        display: none;
+    }
+}
