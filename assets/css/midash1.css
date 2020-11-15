@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    border: none;
+    outline: none;
+}
+.midash-widget{
+    width: calc(100vw - 40px);
+    height: calc(100vh - 20px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    background-image: url('../img/bg1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+.midash-widget>*{
+    transition: all .5s ease-in;
+}
+.form-section{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.form-section form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-avatar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.form-header{
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 2;
+}
+.form-group{
+    margin: 0.3rem 0;
+    width: 100%;
+    position: relative;
+}
+.form-group p{
+    color: #ff6643;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+.form-input{
+    display: block;
+    color: #252525;
+    padding: 15px 50px;
+    font-weight: 600;
+    width: calc(100% - 100px);
+    border-radius: 200px;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 25px;
+}
+.user-icon{
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 15px;
+    color: #928b8b;
+}
+.login-submit{
+    display: block;
+    color: white;
+    background-color: #477ba5;
+    padding: 15px 50px;
+    font-weight: 600;
+    width: 100%;
+    border-radius: 200px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+.login-submit:hover{
+    background-color: teal;
+    box-shadow: 0px 0px 10px 5px rgba(0, 128, 128, 0.411);
+}
+.reminders{
+    display: flex;
+    color: #eee;
+}
+.reminders a{
+    color: #eee;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+@media (max-width: 900px){
+    .form-section{
+        width: 50%;
+    }
+}
+
+@media (max-width: 660px){
+    .form-section{
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 450px){
+    .form-section{
+        width: 95%;
+    }
+}
